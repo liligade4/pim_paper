@@ -242,22 +242,51 @@
 \maketitle
 
 \section{Introduction}
-ACM's consolidated article template, introduced in 2017, provides a
-consistent \LaTeX\ style for use across ACM publications, and
-incorporates accessibility and metadata-extraction functionality
-necessary for future Digital Library endeavors. Numerous ACM and
-SIG-specific \LaTeX\ templates have been examined, and their unique
-features incorporated into this single new template.
 
-If you are new to publishing with ACM, this document is a valuable
-guide to the process of preparing your work for publication. If you
-have published with ACM before, this document provides insight and
-instruction into more recent changes to the article template.
+Charles
 
-The ``\verb|acmart|'' document class can be used to prepare articles
-for any ACM publication --- conference or journal, and for any stage
-of publication, from review to final ``camera-ready'' copy, to the
-author's own version, with {\itshape very} few changes to the source.
+In the last few years, the complexity and the data volume have increased a
+lot. With it, the need for graph processing has become greater too, mainly in social
+networks, recommendation systems, bioinformatics, etc. To improve the efficacy
+of this kind of processing, the use of PIM (Process In Memory) or PNM (Process
+Near Memory) is considered, since these technologies are superior to the normal
+technologies in terms of energy efficiency and data traffic rate.
+
+The use of PIM/PNM removes the need for some processing from the CPU.
+This type of architecture puts a simple version of the CPU near the RAM, which
+makes math and data processing when necessary. This proximity of the RAM
+reduces the big traffic of data to the CPU and, automatically, minimizes the
+bootleneck of the normal paradigm. Furthermore, one of the goals of this
+architecture is to reduce the energy consumption related to data movement
+between the CPU and RAM.
+
+Graph processing algorithms are those that most prove the bottleneck of
+the normal architecture. Despite that, they are the most used algorithms
+nowadays, which means that the world needs more research and ways to put into
+practice the uses of PIM/PNM in graph processing. Because of that, this paper
+makes a review of several papers related to this subject to show the necessity of
+more studies in that field.
+
+Mari 
+
+This article aims to review and discuss recent advances in the field of Processing In Memory (PIM), 
+highlighting its implications for performance and energy efficiency in graph-based machine learning systems. 
+The exponential increase in data usage and the growing complexity of applications such as graph learning have 
+pushed computing systems to overcome the limitations of the traditional Von Neumann model. This model, which 
+separates memory from processing, faces significant challenges due to the need to transfer large volumes of data, 
+resulting in high energy consumption, which can account for up to 62\% of a system's total energy usage.
+
+In this context, the Processing In Memory paradigm emerges as a promising solution to mitigate these problems. 
+By integrating processing units directly into memory or keeping them close to it, PIM can reduce data transfer 
+latency and improve energy efficiency. This article reviews two main architectures within this paradigm: Near-Memory Processing 
+(NMP) and Processing In-Memory (PIM). Both approaches are analyzed in terms of their ability to co-optimize hardware and algorithms 
+to support the increasing demands of graph learning applications.
+
+The study is based on a comprehensive literature review and performance and energy consumption analyses using specialized tools. 
+The review seeks to address the central question of how PIM techniques can not only enhance performance in graph processing but 
+also significantly reduce energy consumption, addressing one of the main challenges in modern computing. In the end, perspectives 
+and future directions for implementing PIM-based solutions are presented, offering valuable insights for the development of more 
+efficient and sustainable technologies.
 
 \section{Template Overview}
 As noted in the introduction, the ``\verb|acmart|'' document class can
